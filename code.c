@@ -29,11 +29,6 @@ bool isSafe(int board[N][N], int row, int col)
  
     for (i = row, j = col; j >= 0 && i < N; i++, j--) 
         if (board[i][j]) 
-         Excelssior Education Society’s 
-             K.C. College of Engineering and Management Studies and Research 
-Mith Bunder Road, Near Hume Pipe, Kopri, Thane (E)-400603 
-Department of Computer Engineering 
- 
             return false; 
  
     return true; 
@@ -66,11 +61,6 @@ bool solveNQ()
     int board[N][N] = { { 0, 0, 0, 0 }, 
                         { 0, 0, 0, 0 }, 
                         { 0, 0, 0, 0 }, 
-         Excelssior Education Society’s 
-             K.C. College of Engineering and Management Studies and Research 
-Mith Bunder Road, Near Hume Pipe, Kopri, Thane (E)-400603 
-Department of Computer Engineering 
- 
                         { 0, 0, 0, 0 } }; 
  
     if (solveNQUtil(board, 0) == false) { 
